@@ -17,6 +17,7 @@ Les logiciels sélectionnés pour la création des modules permettent de fournir
 ## Getting Started
 
 1- Installation et configuration des logiciels suivants :
+
 *_Fail2ban
 
 *_Logwatch
@@ -72,31 +73,7 @@ Jean - Samuel BOURGUIT
 Etudiant OpenClassrooms , parcours AIC (Administrateur Infrastuture et Cloud)
 
 ## License
-
-1- Autorisations: 	
- 
- usage commercial
- 
- Distribution
- 
- Modification
- 
- Utilisation des brevets
- 
- Usage privé
- 
- 2- Conditions:  
-  
-  Avis de licence et de copyright
-  
-  Changements d'état
- 
- 3- Limites:
-  
-  Responsabilité
-  
-  Utilisation des marques
-  
-  garantie
- 
- 
+    Apache License
+    Version 2.0, January 2004
+    http://www.apache.org/licenses/
+https://www.apache.org/licenses/LICENSE-2.0.txt
