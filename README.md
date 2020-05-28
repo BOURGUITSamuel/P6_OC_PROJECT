@@ -75,18 +75,25 @@ Etudiant OpenClassrooms , parcours AIC (Administrateur Infrastuture et Cloud)
 
 1- Autorisations: 	
  usage commercial
+ 
  Distribution
+ 
  Modification
+ 
  Utilisation des brevets
+ 
  Usage privé
  
  2- Conditions:  
   Avis de licence et de copyright
+  
   Changements d'état
  
  3- Limites:
   Responsabilité
+  
   Utilisation des marques
+  
   garantie
  
  
