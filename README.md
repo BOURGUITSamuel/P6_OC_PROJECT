@@ -68,6 +68,7 @@ Version 1.0 > https://github.com/KaizerShibbyWan/P6_OC_PROJECT
 ## Authors
 
 Jean - Samuel BOURGUIT 
+
 Etudiant OpenClassrooms , parcours AIC (Administrateur Infrastuture et Cloud)
 
 ## License
