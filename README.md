@@ -32,6 +32,8 @@ Les logiciels sélectionnés pour la création des modules permettent de fournir
 
 3- Création d'un compte utilisateur "Administrateur"
 
+4- Configuration des interfaces réseaux
+
 ### Prerequisites
 
 L'utlisation du programme nécessite l'acquisition d'un système d'exploiation Linux
