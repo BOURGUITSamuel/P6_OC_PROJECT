@@ -1,0 +1,52 @@
+account: 
+ user: admin
+ pwd: admin
+
+network:
+ int: auto enp0s3
+ ip: address 192.168.0.1
+ mask: netmask 255.255.0.0
+ gaw: gateway 192.19.1.1
+ 
+sshd:
+ permit: PermitRootLogin no
+ pubkey: PubkeyAuthentication yes
+ x11: X11Forwarding no
+ cac: ClientAliveCountMax 2
+ sshdfile: "/etc/ssh/sshd_config"
+
+fail2ban_jail:
+ band: "bantime  = 600"
+ find: "findtime  = 600"
+ max:  "maxretry = 3"
+ dest: "destmail = admin@localhost"
+ send: "sender = admin@<fq-hostname>"
+ conf: "/etc/fail2ban/jail.conf"
+ local: "/etc/fail2ban/jail.local"
+
+fail2ban_default:
+ sshd: "[sshd-ddos]"
+ enable1: "enabled = true"
+ rec: "[recidive]"
+ enable2: "enabled = true"
+ default: "/etc/fail2ban/jail.d/defaults-debian.conf"
+
+cron_apt:
+ conf1: APTCOMMAND=/usr/bin/apt-get
+ conf2: OPTIONS="-o quiet=1 -o Dir::Etc::SourceList=/etc/apt/security.sources.list"
+ conf3: MAILTO="moi@mondomain.fr"
+ conf4: MAILON="upgrade"
+ config: "/etc/cron-apt/config"
+
+logwatch: 
+ format: Format = html
+ mailto: MailTo = moi@mondomaine.fr
+ detail: Detail = Med   
+ confa: "/usr/share/logwatch/default.conf/logwatch.conf"  
+ confb: "/etc/logwatch/conf/logwatch.conf"
+
+rkhunter:
+ cron: CRON_DAILY_RUN="yes"
+ report: REPORT_EMAIL="admin@localhost" 
+ rkconf: "/etc/default/rkhunter"
+ 
