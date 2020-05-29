@@ -9,7 +9,7 @@ def fail2ban_jail(var1):
       fin = open(var1["local"], "rt")
       data = fin.read()
       data = data.replace('bantime  = 10m',var1["band"])
-      data = data.replace('findtime  = 10m',var1["find"] )
+      data = data.replace('findtime  = 10m',var1["find"])
       data = data.replace('maxretry = 5',var1["max"])
       data = data.replace('destemail = root@localhost',var1["dest"])
       data = data.replace('sender = root@<fq-hostname>',var1["send"])
