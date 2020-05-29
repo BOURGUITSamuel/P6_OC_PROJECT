@@ -46,7 +46,7 @@ Le programme a été testé sur l'OS Debian 64bits
 
 ## Installing & Using
 
-1- Copiez les fichiers dans le répertoire de vore choix
+1- Copiez les fichiers dans le répertoire de votre choix
 
 2- Lancez le programme avec la commande suivante : "python secure_os.py config.yaml"
 
