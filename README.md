@@ -55,14 +55,13 @@ Le programme a été testé sur l'OS Debian 64bits
 
 ## Running the tests
 
-les modules ont été testés afin de vérifier la bonne application des paramètres fournis par le fchier congif.yaml
+les modules ont été testés afin de vérifier la bonne application des paramètres fournis par le fchier "congif.yaml"
 
 Vérification du bon fonctionnement des logiciels installés une fois les paramètres appliqués
 
 Recherche et analyse des différentes exceptions levées par Python lors de l'utilisation des modules et du script secure_os.py
 
-Optimisation des paramètres de configuration des logiciels , cependant comme indiqué dans la section précédente , leur modifiation est 
-possible via le fichier "config.yaml" 
+Optimisation des paramètres de configuration des logiciels , cependant comme indiqué dans la section précédente , leur modifiation est possible via le fichier "config.yaml" 
 
 
 ## Versioning
