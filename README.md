@@ -4,6 +4,7 @@ Participez à la vie de la communauté Open Source
 # Secur_OS.py
 Le programme "secur_os.py" a été conçu dans le but de sécuriser un serveur Linux .
 Les logiciels sélectionnés pour la création des modules permettent de fournir un bon niveau de sécurité afin de se protéger des cyber-attaques fréquement recontrées tel que :
+
 *_les méthhodes de force brute
 
 *_L'exploitation des failles logiciels 
