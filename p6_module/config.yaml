@@ -6,7 +6,7 @@ network:
  int: auto enp0s3
  ip: address 192.168.0.1
  mask: netmask 255.255.0.0
- gaw: gateway 192.19.1.1
+ gaw: gateway 192.168.1.1
  
 sshd:
  permit: PermitRootLogin no
