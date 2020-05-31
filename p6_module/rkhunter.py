@@ -10,7 +10,7 @@ def rkhunter_install(var1):
       fin = open(var1["rkconf"], "rt")
       data = fin.read()
       data = data.replace('CRON_DAILY_RUN=""',var1["cron"])
-      data = data.replace('REPORT_EMAIL="root"',var1["report"] )
+      data = data.replace('REPORT_EMAIL="root"',var1["report"])
       fin.close()
       fin = open(var1["rkconf"], "wt")
       fin.write(data)
