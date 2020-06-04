@@ -29,11 +29,9 @@ Les logiciels sélectionnés pour la création des modules permettent de fournir
 
 *_Rkhunter
 
-2- Modification et chiffrement du mot de passe "root" 
+2- Modification et chiffrement du mot de passe "root" & Création d'un compte utilisateur "Administrateur"
 
-3- Création d'un compte utilisateur "Administrateur"
-
-4- Configuration des interfaces réseaux
+3- Configuration des interfaces réseaux
 
 ### Prerequisites
 
@@ -42,7 +40,6 @@ L'utlisation du programme nécessite l'acquisition d'un système d'exploiation L
 Le programme a été conçu avec la version 3.8 de Python
 
 Le programme a été testé sur l'OS Debian 64bits 
- 
 
 ## Installing & Using
 
@@ -51,6 +48,22 @@ Le programme a été testé sur l'OS Debian 64bits
 2- Lancez le programme avec la commande suivante : "python secure_os.py config.yaml"
 
 3- Vous pouvez appliquer vos propres paramètres en modifiant les valeurs du fichier "config.yaml"
+
+## Config.yaml 
+
+Le fichier "config.yaml" applique des paramètres de configuration à l'intérieur des fichiers suivants :  
+
+/etc/network/interfaces 
+/etc/apt/security.sources.list
+/etc/fail2ban/jail.local
+/etc/fail2ban/jail.d/defaults-debian.conf
+/etc/cron-apt/config
+/etc/logwatch/conf/logwatch.conf
+/etc/default/rkhunter
+/etc/ssh/sshd_config
+
+Vous pouvez modifier ce meme fichier afin d'y appliquer vos propres paramètres 
+
 
 
 ## Running the tests
