@@ -35,11 +35,11 @@ Les logiciels sélectionnés pour la création des modules permettent de fournir
 
 ### Prerequisites
 
-L'utlisation du programme nécessite l'acquisition d'un système d'exploiation Linux
+L'utlisation du programme nécessite l'acquisition d'un système d'exploiation Linux.
 
-Le programme a été conçu avec la version 3.8 de Python
+Le programme a été conçu avec la version 3.8 de Python.
 
-Le programme a été testé sur l'OS Debian 64bits 
+Le programme a été testé sur l'OS Debian 64bits. 
 
 ## Installing & Using
 
@@ -69,19 +69,19 @@ Le fichier "config.yaml" applique des paramètres de configuration à l'intérie
 
 *_/etc/ssh/sshd_config
 
-Les paramètres selectionnés ont été optimpisés afin de garantir un niveau de sécurité optimal vis à vis de l'utilisation des logiciels installés et configurés par le programme "secure_os.py".Cependant Vous pouvez modifier ce meme fichier afin d'y appliquer vos propres paramètres 
+Les paramètres selectionnés ont été optimisés afin de garantir un niveau de sécurité satisfaisant vis à vis de l'utilisation des logiciels installés et configurés par le programme "secure_os.py".Cependant Vous pouvez modifier ce meme fichier afin d'y appliquer vos propres paramètres. 
 
 
 
 ## Running the tests
 
-les modules ont été testés afin de vérifier la bonne application des paramètres fournis par le fchier "congif.yaml"
+les modules ont été testés afin de vérifier la bonne application des paramètres fournis par le fchier "congif.yaml".
 
-Vérification du bon fonctionnement des logiciels installés une fois les paramètres appliqués
+Vérification du bon fonctionnement des logiciels installés une fois les paramètres appliqués.
 
-Recherche et analyse des différentes exceptions levées par Python lors de l'utilisation des modules et du script secure_os.py
+Recherche et analyse des différentes exceptions levées par Python lors de l'utilisation des modules et du script secure_os.py.
 
-Optimisation des paramètres de configuration des logiciels , cependant comme indiqué dans la section précédente , leur modifiation est possible via le fichier "config.yaml" 
+Optimisation des paramètres de configuration des logiciels , cependant comme indiqué dans la section précédente , leur modifiation est possible via le fichier "config.yaml". 
 
 
 ## Versioning
