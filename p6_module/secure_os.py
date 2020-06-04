@@ -1,5 +1,6 @@
 # coding: utf-8#
-# "secure_os.py" regroupe les différents modules du projet et permet l'appel de leurs fonctions.
+# 
+#"secure_os.py" regroupe les différents modules du projet et permet l'appel de leurs fonctions.
 #  le fichier de configuration "config.yaml" est nécessaire lors du lancement du programme.
 #  Pour lancer le programme, utilisez la commande suivante "python secure_os.py config.yaml" 
 #  Programme sous license Apache Software Foundation (ASF), vous pouvez obtenir une copie de la license à l'adresse suivante:
