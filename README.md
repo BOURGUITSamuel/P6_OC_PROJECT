@@ -51,9 +51,11 @@ Le programme a été testé sur l'OS Debian 64bits.
 
 ## Config.yaml 
 
-Le fichier "config.yaml" applique des paramètres de configuration à l'intérieur des fichiers suivants :  
+Le fichier "config.yaml" permet la modification des 'paramètres de configuration' des logiciels installés par le programme "secure_os.py". 
 
-*_/etc/network/interfaces 
+Voici l'arborescence complète des fichiers mofifiés:  
+
+*_/etc/network/interfaces
 
 *_/etc/apt/security.sources.list
 
@@ -69,7 +71,7 @@ Le fichier "config.yaml" applique des paramètres de configuration à l'intérie
 
 *_/etc/ssh/sshd_config
 
-Les paramètres selectionnés ont été optimisés afin de garantir un niveau de sécurité satisfaisant,cependant Vous pouvez modifier ce meme fichier afin d'y appliquer vos propres paramètres. 
+Les paramètres sélectionnés ont été optimisés afin de garantir un niveau de sécurité maximal.Cependant vous pouvez modifier les valeurs de chaque section afin d'y appliquer vos propres paramètres. 
 
 
 
