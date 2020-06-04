@@ -4,6 +4,7 @@
 #  Pour lancer le programme, utilisez la commande suivante "python secure_os.py config.yaml" 
 #  Programme sous license Apache Software Foundation (ASF), vous pouvez obtenir une copie de la license à l'adresse suivante:
 #  Le programme se compose de 8 modules conernant l'intallatio et la configuration des logiciels suivants :
+#  https://www.apache.org/licenses/LICENSE-2.0.txt
 #  fail2ban_openssh_cron-apt_logwatch_rkhunter_user_create_ipconfig_
 #  Le module readyamfile permet la lecture du fichier de configuration "config.yaml"
 #
