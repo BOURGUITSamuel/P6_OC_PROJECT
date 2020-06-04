@@ -53,14 +53,21 @@ Le programme a été testé sur l'OS Debian 64bits
 
 Le fichier "config.yaml" applique des paramètres de configuration à l'intérieur des fichiers suivants :  
 
-/etc/network/interfaces 
-/etc/apt/security.sources.list
-/etc/fail2ban/jail.local
-/etc/fail2ban/jail.d/defaults-debian.conf
-/etc/cron-apt/config
-/etc/logwatch/conf/logwatch.conf
-/etc/default/rkhunter
-/etc/ssh/sshd_config
+*_/etc/network/interfaces 
+
+*_/etc/apt/security.sources.list
+
+*_/etc/fail2ban/jail.local
+
+*_/etc/fail2ban/jail.d/defaults-debian.conf
+
+*_/etc/cron-apt/config
+
+*_/etc/logwatch/conf/logwatch.conf
+
+*_/etc/default/rkhunter
+
+*_/etc/ssh/sshd_config
 
 Vous pouvez modifier ce meme fichier afin d'y appliquer vos propres paramètres 
 
