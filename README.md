@@ -69,7 +69,7 @@ Le fichier "config.yaml" applique des paramètres de configuration à l'intérie
 
 *_/etc/ssh/sshd_config
 
-Les paramètres selectionnés ont été optimisés afin de garantir un niveau de sécurité satisfaisant vis à vis de l'utilisation des logiciels installés et configurés par le programme "secure_os.py".Cependant Vous pouvez modifier ce meme fichier afin d'y appliquer vos propres paramètres. 
+Les paramètres selectionnés ont été optimisés afin de garantir un niveau de sécurité satisfaisant,cependant Vous pouvez modifier ce meme fichier afin d'y appliquer vos propres paramètres. 
 
 
 
