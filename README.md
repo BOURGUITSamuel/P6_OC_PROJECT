@@ -53,7 +53,7 @@ Le programme a été testé sur l'OS Debian 64bits.
 
 Le fichier "config.yaml" permet la modification des 'paramètres de configuration' des logiciels installés par le programme "secure_os.py". 
 
-Voici l'arborescence complète des fichiers mofifiés:  
+Voici l'arborescence complète des fichiers modifiés:  
 
 *_/etc/network/interfaces
 
