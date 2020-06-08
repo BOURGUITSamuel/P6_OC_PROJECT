@@ -5,13 +5,13 @@ Participez à la vie de la communauté Open Source
 Le programme "secur_os.py" a été conçu dans le but de sécuriser un serveur Linux .
 Les logiciels sélectionnés pour la création des modules permettent de fournir un bon niveau de sécurité afin de se protéger des cyber-attaques fréquement rencontrées tel que :
 
-*_les méthhodes de force brute
+*_les méthodes de force brute
 
 *_L'exploitation des failles logiciels 
 
 *_Les spams
 
-*_les rootkits et dénis de service
+*_les root-kits et dénis de service
 
 *_Les backdoors
 
@@ -35,7 +35,7 @@ Les logiciels sélectionnés pour la création des modules permettent de fournir
 
 ### Prerequisites
 
-L'utlisation du programme nécessite l'acquisition d'un système d'exploiation Linux.
+L'utilisation du programme nécessite l'acquisition d'un système d'exploitation Linux.
 
 Le programme a été conçu avec la version 3.8 de Python.
 
@@ -77,13 +77,13 @@ Les paramètres sélectionnés ont été optimisés afin de garantir un niveau d
 
 ## Running the tests
 
-les modules ont été testés afin de vérifier la bonne application des paramètres fournis par le fchier "congif.yaml".
+les modules ont été testés afin de vérifier la bonne application des paramètres fournis par le fichier "congif.yaml".
 
 Vérification du bon fonctionnement des logiciels installés une fois les paramètres appliqués.
 
 Recherche et analyse des différentes exceptions levées par Python lors de l'utilisation des modules et du script secure_os.py.
 
-Optimisation des paramètres de configuration des logiciels , cependant comme indiqué dans la section précédente , leur modifiation est possible via le fichier "config.yaml". 
+Optimisation des paramètres de configuration des logiciels , cependant comme indiqué dans la section précédente , leur modification est possible via le fichier "config.yaml". 
 
 
 ## Versioning
