@@ -1,5 +1,6 @@
 # coding: utf-8
 import os
+
 def logwatch_install(var1):
     """Installation et configuration de logwatch"""
     try:
