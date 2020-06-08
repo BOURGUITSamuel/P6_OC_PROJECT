@@ -1,11 +1,11 @@
 # coding: utf-8#
 # 
-#"secure_os.py" regroupe les différents modules du projet et permet l'appel de leurs fonctions.
+#  "secure_os.py" regroupe les différents modules du projet et permet l'appel de leurs fonctions.
 #  le fichier de configuration "config.yaml" est nécessaire lors du lancement du programme.
 #  Pour lancer le programme, utilisez la commande suivante "python secure_os.py config.yaml" 
 #  Programme sous license Apache Software Foundation (ASF), vous pouvez obtenir une copie de la license à l'adresse suivante:
-#  Le programme se compose de 8 modules conernant l'intallatio et la configuration des logiciels suivants :
 #  https://www.apache.org/licenses/LICENSE-2.0.txt
+#  Le programme se compose de 8 modules prenant en charge l'installation et la configuration des logiciels suivants :
 #  fail2ban_openssh_cron-apt_logwatch_rkhunter_user_create_ipconfig_
 #  Le module readyamfile permet la lecture du fichier de configuration "config.yaml"
 #
