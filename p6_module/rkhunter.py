@@ -1,5 +1,6 @@
 # coding: utf-8
 import os
+
 def rkhunter_install(var1):
     """Installation et configuration de rkhunter"""
     try:
