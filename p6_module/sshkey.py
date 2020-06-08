@@ -1,8 +1,10 @@
 # coding: utf-8
 import os
+
 private = "private.pem"
 public = "public.pem"
 path = "/etc/ssh/key"
+
 def sshkey_generate(private, public, path):
     """Génération de clé privée , public ssh"""
     try:
