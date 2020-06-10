@@ -16,11 +16,13 @@ import os
 conf = sys.argv[1] 
 vars = readyamlfile.read_conf(conf)
 
-openssh.openssh_install(vars["sshd"])
+
 ipconfig.set_ipconfig(vars["network"])
+ipconfig.hostname(vars["network"])
+user_create.admin_create(vars["account"])
+openssh.openssh_install(vars["sshd"])
 cron_apt.cron_apt_config(vars["cron_apt"])
 fail2ban.fail2ban_jail(vars["fail2ban_jail"])
 fail2ban.fail2ban_default(vars["fail2ban_default"])
 logwatch.logwatch_install(vars["logwatch"])
-user_create.admin_create(vars["account"])
 rkhunter.rkhunter_install(vars["rkhunter"])
