@@ -4,11 +4,11 @@ account:
 
 network:
  int: auto enp0s3
- ip: address 192.168.0.1
+ ip: address 192.168.1.2
  mask: netmask 255.255.0.0
  gaw: gateway 192.168.1.1
  hostname: ansible
- hosts: 192.168.0.1     ansible
+ hosts: 192.168.1.2    ansible
  
 sshd:
  permit: PermitRootLogin no
