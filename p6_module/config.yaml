@@ -7,6 +7,8 @@ network:
  ip: address 192.168.0.1
  mask: netmask 255.255.0.0
  gaw: gateway 192.168.1.1
+ hostname: ansible
+ hosts: 192.168.0.1     ansible
  
 sshd:
  permit: PermitRootLogin no
