@@ -23,6 +23,7 @@ def set_ipconfig(var1):
         print('Une erreur de type "ImportError" a été levée')
     except IndentationError:
         print('Une ereur de type "IndentationError" a été levée')
+        
 def hostname(var1):
     """Modification du hostname et du fichier hosts"""
     try:
