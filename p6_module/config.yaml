@@ -4,6 +4,7 @@ account:
 
 network:
  int: auto enp0s3
+ type: iface enp0s3 inet static 
  ip: address 192.168.1.2
  mask: netmask 255.255.255.0
  gaw: gateway 192.168.1.1
