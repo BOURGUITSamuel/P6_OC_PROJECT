@@ -5,8 +5,8 @@ def set_ipconfig(var1):
     """Configuration du fichier interfaces de l'OS Debian"""
     try:
       fichier = open("/etc/network/interfaces", "a")
-      fichier.write(var1["type"]+"\n")
       fichier.write(var1["int"]+"\n")
+      fichier.write(var1["type"]+"\n")
       fichier.write(var1["ip"]+"\n")
       fichier.write(var1["mask"]+"\n")
       fichier.write(var1["gaw"]+"\n")
