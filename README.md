@@ -29,7 +29,7 @@ Les logiciels sélectionnés pour la création des modules permettent de fournir
 
 *_Rkhunter
 
-2- Modification et chiffrement du mot de passe "root" & Création d'un compte utilisateur "Administrateur"
+2- Création d'un compte utilisateur "Administrateur"
 
 3- Configuration des interfaces réseaux
 
