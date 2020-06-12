@@ -1,5 +1,6 @@
 # coding: utf-8
 import os
+
 def admin_create(var1):
     """Création de compte utilisateur Linux"""
     try:
