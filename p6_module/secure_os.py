@@ -1,4 +1,4 @@
-# coding: utf-8#
+# coding: utf-8
 # 
 #  "secure_os.py" regroupe les différents modules du projet et permet l'appel de leurs fonctions.
 #  le fichier de configuration "config.yaml" est nécessaire lors du lancement du programme.
