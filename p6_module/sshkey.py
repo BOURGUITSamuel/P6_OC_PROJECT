@@ -8,7 +8,6 @@ path = "/etc/ssh/key"
 def sshkey_generate(private, public, path):
     """Génération de clé privée , public ssh"""
     try:
-      import os
       from Crypto.PublicKey import RSA
       key = RSA.generate(2048)
       public_key = key.publickey()
